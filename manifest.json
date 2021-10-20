@@ -1,0 +1,21 @@
+{
+  "name": "Emotrack",
+  "short_name": "Emotrack",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "/",
+"icons": [
+ {
+      "src": "file:///Users/steffenhartmann/Desktop/PWA/image.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },    
+{
+      "src": "file:///Users/steffenhartmann/Desktop/PWA/image.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+}
+
