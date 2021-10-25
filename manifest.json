@@ -6,6 +6,7 @@
     "display": "standalone",
     "theme_color": "#000000",
     "background_color": "#ffffff",
+    "scope": "https://soscisurvey.de/",
     "icons": [
       {
         "src": "image.png",
