@@ -3,7 +3,7 @@ const urlParams = new URLSearchParams(queryString);
 var serial = urlParams.get('serial');
 
 
-var sosci = "?s=";
+var sosci = "&?s=";
 var link =  "https://www.soscisurvey.de/demotrack/?q=EMA_event";
 var ref = link+sosci+serial;
 document.write('EmoTrack starten'.link(ref));
