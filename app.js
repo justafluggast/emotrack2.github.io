@@ -4,9 +4,9 @@ var serial = urlParams.get('serial');
 
 
 var sosci = "/?s=";
-var link =  "https://www.example.com";
+var link =  "https://www.soscisurvey.de/demotrack/";
 var ref = link+sosci+serial;
-document.write('EmoTrack starten'.link(ref));
+document.write('<divEmoTrack starten'.link(ref));
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
