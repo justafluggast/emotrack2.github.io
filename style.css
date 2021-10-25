@@ -10,6 +10,11 @@ a {
   font-size: 20px;
 }
 
+.hidden {
+  display: none !important;
+}
+
+
 table {
 text-align: center;
   margin: auto;
