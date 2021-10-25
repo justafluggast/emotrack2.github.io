@@ -9,7 +9,6 @@ window.addEventListener('beforeinstallprompt', (event) => {
   divInstall.classList.toggle('hidden', false);
 });
 
-
 /* Only register a service worker if it's supported */
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js');
