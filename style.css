@@ -11,7 +11,8 @@ a {
 }
 
 table {
-text-align: center
+text-align: center;
+  margin: auto;
 }
 
 th, td {
