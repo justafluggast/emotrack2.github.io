@@ -6,7 +6,7 @@ var serial = urlParams.get('serial');
 var sosci = "/?s=";
 var link =  "https://www.example.com";
 var ref = link+sosci+serial;
-document.write('START'.link(ref));
+document.write('EmoTrack starten'.link(ref));
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
