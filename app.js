@@ -6,7 +6,7 @@ var serial = urlParams.get('serial');
 var sosci = "&?s=";
 var link =  "https://www.soscisurvey.de/demotrack/?q=EMA_event";
 var ref = link+sosci+serial;
-document.write('EmoTrack starten'.link(ref));
+document.write('EmoTrack'.link(ref));
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
