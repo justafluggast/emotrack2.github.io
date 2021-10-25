@@ -1,6 +1,6 @@
 {
-    "name": "PWA-DEMO",
-    "short_name": "PWA-DEMO",
+    "name": "EmoTrack",
+    "short_name": "EmoTrack",
     "lang": "de-DE",
     "start_url": "/index.html",
     "display": "standalone",
@@ -8,12 +8,12 @@
     "background_color": "#ffffff",
     "icons": [
       {
-        "src": "image2.png",
+        "src": "image.png",
         "sizes": "512x512",
         "type": "image\/png"
       },
         {
-        "src": "image2.png",
+        "src": "image.png",
         "sizes": "192x192",
         "type": "image\/png"
       } 
