@@ -3,6 +3,19 @@ body {
 background: #11B3A5;
 }
 
+.button {
+  background-color: #FFFFFF;
+  border: #11B3A5;
+  border-radius: 50%;
+  color: #11B3A5;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2em 0;
+  cursor: pointer;}
+
 /* Make content area fill the entire browser window */
 html,
 .fullscreen {
