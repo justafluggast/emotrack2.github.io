@@ -1,5 +1,6 @@
 body {
   background-color: #11B3A5;
+  text-align: center;
 
 }
 
@@ -22,7 +23,7 @@ html,
 
 /* Center the content in the browser window */
 .container {
-  margin: auto;
+  margin: 0px auto;
   text-align: center;
 }
 
