@@ -1,5 +1,17 @@
-// Listen for install event, set callback
-self.addEventListener('install', function(event) {
-    // Perform some task
-});
+const web_cache = 'web-app-cache-v1.0';
+const filesToCache = [
+  '/',
+  'styles.css',
+  'app.js'
+  ....
+];
 
+self.addEventListener('install', function(event) {
+  event.waitUntil(
+    caches.open(web_cache)
+      .then((cache)=> {
+        //Cache has been opened succesfully
+        return cache.addAll(filesToCache);
+      })
+  );
+});
