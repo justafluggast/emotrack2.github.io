@@ -1,7 +1,6 @@
 body {
-  background-color: #11B3A5;
+  background-color:#0B2F3A;
   text-align: center;
-
 }
 
 a {
@@ -9,7 +8,22 @@ a {
   color: #FFFFFF;
   text-decoration: none;
   font-size: 20px;
+
 }
+
+table{
+text-align: center
+
+
+}
+
+th, td {
+  padding: 15px;
+  border-left:8px solid #FFFFFF;
+  background-color:#11B3A5;
+}
+
+td:hover {border:8px solid #FFFFFF;}
 
 /* Make content area fill the entire browser window */
 html,
