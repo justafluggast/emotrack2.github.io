@@ -13,6 +13,20 @@ body {
 }
 
 
+a {
+  background-color: #FFFFFF;
+  border: 3px solid #11B3A5;
+  border-radius: 50%;
+  color: #11B3A5;
+  padding: 0.7em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2em 0;
+  font-weight: bold;
+ }
+
 
 /* Make content area fill the entire browser window */
 html,
