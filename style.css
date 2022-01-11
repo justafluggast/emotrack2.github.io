@@ -1,6 +1,15 @@
+
 body {
-  background-color:#0B2F3A;
+  background-color:#11B3A5;
   text-align: center;
+  -webkit-user-select: none;
+}
+
+p {
+  font-family: sans-serif;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 a {
@@ -9,11 +18,6 @@ a {
   text-decoration: none;
   font-size: 20px;
 }
-
-.hidden {
-  display: none !important;
-}
-
 
 table {
 text-align: center;
@@ -43,3 +47,35 @@ html,
   margin: auto;
   width: 100%;
 }
+
+#ios-prompt {
+    color: #FFFFFF;
+    text-align: center;
+    display: none;
+    font-size: 20px;
+    border-color: #FFFFFF;
+  border-style: solid;
+      }
+#android-prompt {
+    color: #FFFFFF;
+    text-align: center;
+    display: none;
+    font-size: 20px;
+    border-color: #FFFFFF;
+  border-style: solid;
+      }
+#firefox-prompt {
+    color: #FFFFFF;
+    text-align: center;
+    display: none;
+    font-size: 20px;
+    border-style: solid;
+    border-color: #FFFFFF;
+      }
+#end {
+    display: none;
+      }
+#eingabefeld {
+    display: none;
+      }
+
