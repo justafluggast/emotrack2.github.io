@@ -6,44 +6,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="EmoTrack">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <meta name="theme-color" content="#0B2F3A" />
+  <meta name="theme-color" content="#11B3A5" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="EmoTrack">
   
   <link rel="apple-touch-icon" href="image.png" />
-  <link rel="manifest" href="manifest.json" />
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
   
   
   <title>EmoTrack</title>
-
 </head>
 <body class="fullscreen">
- <div class="container">
-  <table>
-   <tr>
-   <td>
-   <a href = "https://www.soscisurvey.de/demotrack/?q=EMA_event">EmoTrack starten</a>
-   </td>
-   </tr>
-   <tr>
-   <td>
-   <a href = "https://www.soscisurvey.de/demotrack/?q=eat">eatMotion starten</a>
-   </td>
-   </tr>
-   <tr>
-   <td>
-   <a href = "https://www.soscisurvey.de/demotrack/?q=emi">EMI starten</a>
-   </td>
-   </tr>
-   </table>
+<div class="container">
+  <div id="android-prompt">
+    <p><b>Zur Installation mit Google Chrome:</b><br> Klicken Sie einfach unten auf Installieren</p>
+  </div>
+  <br>
+   <div id="firefox-prompt">
+     <p><b>Zur Installation mit Firefox:</b><br> Klicken Sie links auf die drei kleinen Punkte und dann auf die Option <i>Installieren</i></p>
+  </div>
+  <br>
+  <div id="ios-prompt">
+    <p><b>Zur Installation auf dem iPhone:</b><br> Klicken Sie auf<img src="https://svgshare.com/i/AFm.svg" style="display: inline-block; margin-top: 4px; margin-bottom: -4px; height: 20px; width: auto;"> 
+      und dann auf zum Homescreen hinzufügen.
+    <img src="https://svgshare.com/i/AEL.svg" style="display: inline-block; margin-top: 4px; margin-bottom: -4px; height: 20px; width: auto;"></p>
+  </div>
+  <div id="eingabefeld">
+    <p style="color: #FFFFFF"> Eingabe Ihres persönlichen Codes </p>
+    <input type="text" name="token" style="width: 150px; background-color: #FFFFFF; color: #000000" id="token"/>
+    <button onclick="send()">Senden</button>
+  </div>
+  <div align="center" id="end">
+    <img src="image.png" style="width: 35%">
+    <br>
+    <h1 style="color:#FFFFFF;font-size:32px;text-align: center">  Vielen Dank fürs Mitmachen! </h1>
+    <h3 style="color:#FFFFFF;font-size:32px;text-align: center">  Sie können die App jetzt schließen </h3>
+  </div>
   <script src="app.js"></script>
-   
-   <form>
-  <label for="ID">ID:
-    <input id="ID" name="ID">
-  </label>
-   </form>
-   
-   
+</div>
 </body>
 </html> 
  
+
